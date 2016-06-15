@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  background-color:
+}
+.header, .header>h1, .header>p{
+  margin: auto;
+  text-align: center;
+  padding: 2px;
+}
+header, footer{
+background-color: #8C8C8C;
+}
+nav>form>div{
+  display: inline-flex;;
+  margin:8px;
+  vertical-align: middle;
+}
+nav{
+  margin:auto;
+  background-color: #A0A0A0;
+  width: 950px;
+  height: auto;
+}
+nav>form{
+  width: 925px;
+  margin: auto;
+  margin-bottom: 18px;
+}
+
+footer{
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+main{
+  margin-top: -10px;
+height: 100%;
+width: 100%;
+}
+#loc{
+  margin: auto;
+  max-width: 896px;
+  max-height: 896px;
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.navName{
+  margin-right: 2px;
+}
+input[type="radio" i] {
+  display: block;
+  margin: auto;
+  margin-top: 3px;
+}
+input{
+  max-width: 100px;
+}
+
+.grid_lin{
+  list-style:none;
+  display: block;
+}
+
+.grid_squ_1, .grid_squ_2, .grid_squ_3, .grid_squ_lit{
+  display: inline-block;
+  width: 10px;
+}
+
+.grid_squ_1, .grid_lin, .grid_squ_lit{
+  height: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.grid_squ_lit{
+  background-color: black;
+}
+
+.grid_squ_1{
+  background-color: red;
+}
+
+.grid_squ_2, .grid_squ_3{
+  background-color: black;
+  opacity:1.0;
+}
